@@ -1,0 +1,20 @@
+<suite name="softwaretestingmaterial">
+    <test name="testngTest">
+        <classes>
+            <class name="org.example.TestPlan">
+                <methods>
+                    <include name="submitForm"/>
+                    <include name="submitForm2"/>
+                    <include name="submitForm3"/>
+                </methods>
+            </class>
+            <class name="org.example.GraderTest" />
+            <class name="org.example.SimpleCalculatorTest">
+                <methods>
+                    <include name="twoPlusTwoShouldEqualFour"/>
+                    <include name="threePluSevenShouldEqualTen"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

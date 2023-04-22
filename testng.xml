@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/jamie/IdeaProjects/Mavenproject2">
+        <classes><class name="org.example.GraderTest">
+            <methods>
+                <include name="fiftyNineShouldReturnF"/>
+                <include name="sixtyNineShouldReturnD"/>
+                <include name="seventyNineShouldReturnC"/>
+                <include name="eightyNineShouldReturnB"/>
+                <include name="ninetyNineShouldReturnA"/>
+                <include name="negativeOneShouldReturnIllegalArg"/>
+            </methods>
+        </class>
+            <class name="org.example.SimpleCalculatorTest">
+                <methods>
+                    <include name="twoPlusTwoShouldEqualFour"/>
+                    <include name="threePluSevenShouldEqualTen"/>
+                </methods>
+            </class>
+            <class name="org.example.TestPlan">
+                <methods>
+                    <include name="submitForm"/>
+                    <include name="submitForm2"/>
+                    <include name="submitForm3"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
